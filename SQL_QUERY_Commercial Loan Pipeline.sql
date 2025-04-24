@@ -19,7 +19,7 @@
 --DECLARE @PipelineGroup AS VARCHAR(500) = 'New Pipeline'
 
 SELECT
-        [otm].[TeamMember]
+        [otm].[TeamMember] AS [Adding a change to this code]
       , [o].[PrimaryTeamMemberCode]
       , IIF(LEN( [OCD].[ReportingGroup] ) >= 1, [OCD].[ReportingGroup], 'No Officer Assigned') AS [Officer Department]
       , [o].[AccountNumber]
